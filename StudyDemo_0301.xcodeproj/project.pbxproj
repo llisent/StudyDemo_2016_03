@@ -18,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		5230CE732446A07334F74E5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6A14EE581CAA81A700D63117 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		6A9C0ABC1CAA7FE3005FB70E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6AA59D8A1CAA766F001F2DB2 /* StudyDemo_0301.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDemo_0301.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA59D8E1CAA766F001F2DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AA59D901CAA766F001F2DB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,7 +30,6 @@
 		6AA59D991CAA766F001F2DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AA59D9C1CAA766F001F2DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AA59D9E1CAA766F001F2DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AA59DA51CAA7E90001F2DB2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		801ADE96BE0974A674AD848D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E3F934ABC82AE84F5A79E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +46,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A14EE591CAA829B00D63117 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		6A14EE5A1CAA82BA00D63117 /* Baseknowledge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Baseknowledge;
+			sourceTree = "<group>";
+		};
+		6A14EE5B1CAA82E500D63117 /* UI_Level1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI_Level1;
+			sourceTree = "<group>";
+		};
+		6A14EE5C1CAA831600D63117 /* UI_Level2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI_Level2;
+			sourceTree = "<group>";
+		};
 		6AA59D811CAA766F001F2DB2 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +95,10 @@
 		6AA59D8C1CAA766F001F2DB2 /* StudyDemo_0301 */ = {
 			isa = PBXGroup;
 			children = (
+				6A14EE5C1CAA831600D63117 /* UI_Level2 */,
+				6A14EE5B1CAA82E500D63117 /* UI_Level1 */,
+				6A14EE5A1CAA82BA00D63117 /* Baseknowledge */,
+				6A14EE591CAA829B00D63117 /* Animation */,
 				6AA59DA41CAA7E7C001F2DB2 /* System */,
 				6AA59D8D1CAA766F001F2DB2 /* Supporting Files */,
 			);
@@ -91,7 +124,8 @@
 				6AA59D991CAA766F001F2DB2 /* Assets.xcassets */,
 				6AA59D9B1CAA766F001F2DB2 /* LaunchScreen.storyboard */,
 				6AA59D9E1CAA766F001F2DB2 /* Info.plist */,
-				6AA59DA51CAA7E90001F2DB2 /* PrefixHeader.pch */,
+				6A9C0ABC1CAA7FE3005FB70E /* PrefixHeader.pch */,
+				6A14EE581CAA81A700D63117 /* Macros.h */,
 			);
 			name = System;
 			sourceTree = "<group>";
