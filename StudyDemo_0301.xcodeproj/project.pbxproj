@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A5CC76A1CAB7BEA009BC4B2 /* SD_CALayer_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5CC7691CAB7BEA009BC4B2 /* SD_CALayer_1.m */; };
+		6A5CC7791CAB80D7009BC4B2 /* SD_Notification_VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5CC7771CAB80D7009BC4B2 /* SD_Notification_VC1.m */; };
+		6A5CC77A1CAB80D7009BC4B2 /* SD_Notification_VC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5CC7781CAB80D7009BC4B2 /* SD_Notification_VC1.xib */; };
+		6A5CC77E1CAB80E3009BC4B2 /* SD_Notification_VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5CC77C1CAB80E3009BC4B2 /* SD_Notification_VC2.m */; };
+		6A5CC77F1CAB80E3009BC4B2 /* SD_Notification_VC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A5CC77D1CAB80E3009BC4B2 /* SD_Notification_VC2.xib */; };
+		6A769E401CACF15800674949 /* SDByValViewControllerFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A769E3E1CACF15800674949 /* SDByValViewControllerFirst.m */; };
+		6A769E411CACF15800674949 /* SDByValViewControllerFirst.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A769E3F1CACF15800674949 /* SDByValViewControllerFirst.xib */; };
+		6A769E451CACF1C200674949 /* SDByValViewControllerSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A769E431CACF1C200674949 /* SDByValViewControllerSecond.m */; };
+		6A769E461CACF1C200674949 /* SDByValViewControllerSecond.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A769E441CACF1C200674949 /* SDByValViewControllerSecond.xib */; };
+		6A769E481CACF4F000674949 /* Block in Resources */ = {isa = PBXBuildFile; fileRef = 6A769E471CACF4F000674949 /* Block */; };
+		6A769E4C1CACF5F500674949 /* SDCopyWithStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A769E4B1CACF5F500674949 /* SDCopyWithStrong.m */; };
 		6AA59D8F1CAA766F001F2DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59D8E1CAA766F001F2DB2 /* main.m */; };
 		6AA59D921CAA766F001F2DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59D911CAA766F001F2DB2 /* AppDelegate.m */; };
 		6AA59D951CAA766F001F2DB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59D941CAA766F001F2DB2 /* ViewController.m */; };
@@ -19,6 +30,23 @@
 /* Begin PBXFileReference section */
 		5230CE732446A07334F74E5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6A14EE581CAA81A700D63117 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		6A5CC7681CAB7BEA009BC4B2 /* SD_CALayer_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SD_CALayer_1.h; sourceTree = "<group>"; };
+		6A5CC7691CAB7BEA009BC4B2 /* SD_CALayer_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SD_CALayer_1.m; sourceTree = "<group>"; };
+		6A5CC7761CAB80D7009BC4B2 /* SD_Notification_VC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SD_Notification_VC1.h; sourceTree = "<group>"; };
+		6A5CC7771CAB80D7009BC4B2 /* SD_Notification_VC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SD_Notification_VC1.m; sourceTree = "<group>"; };
+		6A5CC7781CAB80D7009BC4B2 /* SD_Notification_VC1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SD_Notification_VC1.xib; sourceTree = "<group>"; };
+		6A5CC77B1CAB80E3009BC4B2 /* SD_Notification_VC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SD_Notification_VC2.h; sourceTree = "<group>"; };
+		6A5CC77C1CAB80E3009BC4B2 /* SD_Notification_VC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SD_Notification_VC2.m; sourceTree = "<group>"; };
+		6A5CC77D1CAB80E3009BC4B2 /* SD_Notification_VC2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SD_Notification_VC2.xib; sourceTree = "<group>"; };
+		6A769E3D1CACF15800674949 /* SDByValViewControllerFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDByValViewControllerFirst.h; sourceTree = "<group>"; };
+		6A769E3E1CACF15800674949 /* SDByValViewControllerFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDByValViewControllerFirst.m; sourceTree = "<group>"; };
+		6A769E3F1CACF15800674949 /* SDByValViewControllerFirst.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDByValViewControllerFirst.xib; sourceTree = "<group>"; };
+		6A769E421CACF1C200674949 /* SDByValViewControllerSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDByValViewControllerSecond.h; sourceTree = "<group>"; };
+		6A769E431CACF1C200674949 /* SDByValViewControllerSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDByValViewControllerSecond.m; sourceTree = "<group>"; };
+		6A769E441CACF1C200674949 /* SDByValViewControllerSecond.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDByValViewControllerSecond.xib; sourceTree = "<group>"; };
+		6A769E471CACF4F000674949 /* Block */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Block; sourceTree = "<group>"; };
+		6A769E4A1CACF5F500674949 /* SDCopyWithStrong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCopyWithStrong.h; sourceTree = "<group>"; };
+		6A769E4B1CACF5F500674949 /* SDCopyWithStrong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCopyWithStrong.m; sourceTree = "<group>"; };
 		6A9C0ABC1CAA7FE3005FB70E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6AA59D8A1CAA766F001F2DB2 /* StudyDemo_0301.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDemo_0301.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA59D8E1CAA766F001F2DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +77,7 @@
 		6A14EE591CAA829B00D63117 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				6A5CC7671CAB7BBA009BC4B2 /* CALayer */,
 			);
 			name = Animation;
 			sourceTree = "<group>";
@@ -56,6 +85,10 @@
 		6A14EE5A1CAA82BA00D63117 /* Baseknowledge */ = {
 			isa = PBXGroup;
 			children = (
+				6A769E491CACF5E300674949 /* Menmory */,
+				6A5CC7861CABBBB0009BC4B2 /* FuckBlock */,
+				6A5CC7801CABA64C009BC4B2 /* ENUM */,
+				6A5CC76B1CAB7FE3009BC4B2 /* Notification */,
 			);
 			name = Baseknowledge;
 			sourceTree = "<group>";
@@ -72,6 +105,58 @@
 			children = (
 			);
 			name = UI_Level2;
+			sourceTree = "<group>";
+		};
+		6A5CC7671CAB7BBA009BC4B2 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				6A5CC7681CAB7BEA009BC4B2 /* SD_CALayer_1.h */,
+				6A5CC7691CAB7BEA009BC4B2 /* SD_CALayer_1.m */,
+			);
+			name = CALayer;
+			sourceTree = "<group>";
+		};
+		6A5CC76B1CAB7FE3009BC4B2 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				6A5CC7761CAB80D7009BC4B2 /* SD_Notification_VC1.h */,
+				6A5CC7771CAB80D7009BC4B2 /* SD_Notification_VC1.m */,
+				6A5CC7781CAB80D7009BC4B2 /* SD_Notification_VC1.xib */,
+				6A5CC77B1CAB80E3009BC4B2 /* SD_Notification_VC2.h */,
+				6A5CC77C1CAB80E3009BC4B2 /* SD_Notification_VC2.m */,
+				6A5CC77D1CAB80E3009BC4B2 /* SD_Notification_VC2.xib */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		6A5CC7801CABA64C009BC4B2 /* ENUM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ENUM;
+			sourceTree = "<group>";
+		};
+		6A5CC7861CABBBB0009BC4B2 /* FuckBlock */ = {
+			isa = PBXGroup;
+			children = (
+				6A769E3D1CACF15800674949 /* SDByValViewControllerFirst.h */,
+				6A769E3E1CACF15800674949 /* SDByValViewControllerFirst.m */,
+				6A769E3F1CACF15800674949 /* SDByValViewControllerFirst.xib */,
+				6A769E421CACF1C200674949 /* SDByValViewControllerSecond.h */,
+				6A769E431CACF1C200674949 /* SDByValViewControllerSecond.m */,
+				6A769E441CACF1C200674949 /* SDByValViewControllerSecond.xib */,
+				6A769E471CACF4F000674949 /* Block */,
+			);
+			name = FuckBlock;
+			sourceTree = "<group>";
+		};
+		6A769E491CACF5E300674949 /* Menmory */ = {
+			isa = PBXGroup;
+			children = (
+				6A769E4A1CACF5F500674949 /* SDCopyWithStrong.h */,
+				6A769E4B1CACF5F500674949 /* SDCopyWithStrong.m */,
+			);
+			name = Menmory;
 			sourceTree = "<group>";
 		};
 		6AA59D811CAA766F001F2DB2 = {
@@ -176,6 +261,7 @@
 		6AA59D821CAA766F001F2DB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SD;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = lnzsbks;
 				TargetAttributes = {
@@ -208,9 +294,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A769E481CACF4F000674949 /* Block in Resources */,
 				6AA59D9D1CAA766F001F2DB2 /* LaunchScreen.storyboard in Resources */,
 				6AA59D9A1CAA766F001F2DB2 /* Assets.xcassets in Resources */,
+				6A5CC77A1CAB80D7009BC4B2 /* SD_Notification_VC1.xib in Resources */,
 				6AA59D981CAA766F001F2DB2 /* Main.storyboard in Resources */,
+				6A769E461CACF1C200674949 /* SDByValViewControllerSecond.xib in Resources */,
+				6A5CC77F1CAB80E3009BC4B2 /* SD_Notification_VC2.xib in Resources */,
+				6A769E411CACF15800674949 /* SDByValViewControllerFirst.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +360,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A769E451CACF1C200674949 /* SDByValViewControllerSecond.m in Sources */,
+				6A769E4C1CACF5F500674949 /* SDCopyWithStrong.m in Sources */,
+				6A5CC76A1CAB7BEA009BC4B2 /* SD_CALayer_1.m in Sources */,
+				6A5CC77E1CAB80E3009BC4B2 /* SD_Notification_VC2.m in Sources */,
+				6A769E401CACF15800674949 /* SDByValViewControllerFirst.m in Sources */,
+				6A5CC7791CAB80D7009BC4B2 /* SD_Notification_VC1.m in Sources */,
 				6AA59D951CAA766F001F2DB2 /* ViewController.m in Sources */,
 				6AA59D921CAA766F001F2DB2 /* AppDelegate.m in Sources */,
 				6AA59D8F1CAA766F001F2DB2 /* main.m in Sources */,

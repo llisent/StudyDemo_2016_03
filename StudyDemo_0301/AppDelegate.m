@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SD_CALayer_1.h"
+#import "SD_Notification_VC1.h"
+#import "SDByValViewControllerFirst.h"
+#import "SDCopyWithStrong.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,48 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    [self calayerDemo];
+//    [self notificationDemo];
+//    [self byvalBlock];
+    [self copyWithStrong];
     return YES;
+}
+
+//CALAYER
+- (void)calayerDemo{
+    SD_CALayer_1 *layer = [[SD_CALayer_1 alloc]init];
+    [self makeWindowWithViewController:layer];
+}
+
+- (void)notificationDemo{
+    SD_Notification_VC1 *vc = [[SD_Notification_VC1 alloc]init];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
+    [self makeWindowWithViewController:navi];
+}
+
+- (void)byvalBlock{
+    SDByValViewControllerFirst *vc = [[SDByValViewControllerFirst alloc]init];
+    [self makeWindowWithNavigationController:vc];
+}
+
+- (void)copyWithStrong{
+    SDCopyWithStrong *vc = [[SDCopyWithStrong alloc]init];
+    [self makeWindowWithViewController:vc];
+}
+
+
+
+- (void)makeWindowWithViewController:(id)vc{
+    self.window = [[UIWindow alloc]initWithFrame:ScreenBonds];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+}
+
+- (void)makeWindowWithNavigationController:(id)vc{
+    UINavigationController *navi   = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window                    = [[UIWindow alloc]initWithFrame:ScreenBonds];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
