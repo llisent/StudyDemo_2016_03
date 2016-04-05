@@ -23,7 +23,8 @@
 //    [self calayerDemo];
 //    [self notificationDemo];
 //    [self byvalBlock];
-    [self copyWithStrong];
+//    [self copyWithStrong];
+    [self useStoryBoard];
     return YES;
 }
 
@@ -47,6 +48,12 @@
 - (void)copyWithStrong{
     SDCopyWithStrong *vc = [[SDCopyWithStrong alloc]init];
     [self makeWindowWithViewController:vc];
+}
+
+- (void)useStoryBoard{
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"BigBean" bundle:[NSBundle mainBundle]];
+    [self makeWindowWithViewController:[sb instantiateInitialViewController]];
+    
 }
 
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SDArchiveVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Af4-L2-psc">
+                    <rect key="frame" x="50" y="50" width="30" height="30"/>
+                    <state key="normal" title="归档"/>
+                    <connections>
+                        <action selector="save:" destination="-1" eventType="touchUpInside" id="gOA-nq-hEs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUX-na-xOQ">
+                    <rect key="frame" x="520" y="50" width="30" height="30"/>
+                    <state key="normal" title="解档"/>
+                    <connections>
+                        <action selector="read:" destination="-1" eventType="touchUpInside" id="PI5-Nk-CEe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Af4-L2-psc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="Da7-t0-TGS"/>
+                <constraint firstItem="Af4-L2-psc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="RxD-f7-QwN"/>
+                <constraint firstItem="ZUX-na-xOQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="bc6-UG-1dd"/>
+                <constraint firstAttribute="trailing" secondItem="ZUX-na-xOQ" secondAttribute="trailing" constant="50" id="gCK-3j-T8F"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

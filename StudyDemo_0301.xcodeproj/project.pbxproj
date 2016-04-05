@@ -18,6 +18,13 @@
 		6A769E461CACF1C200674949 /* SDByValViewControllerSecond.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A769E441CACF1C200674949 /* SDByValViewControllerSecond.xib */; };
 		6A769E481CACF4F000674949 /* Block in Resources */ = {isa = PBXBuildFile; fileRef = 6A769E471CACF4F000674949 /* Block */; };
 		6A769E4C1CACF5F500674949 /* SDCopyWithStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A769E4B1CACF5F500674949 /* SDCopyWithStrong.m */; };
+		6A8391961CAE262F000C2AB2 /* BigBean.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8391951CAE262F000C2AB2 /* BigBean.storyboard */; };
+		6A8391991CAE4F55000C2AB2 /* SDConstomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8391981CAE4F55000C2AB2 /* SDConstomSegue.m */; };
+		6A83919C1CAE4F79000C2AB2 /* SDSBViewcontroller1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83919B1CAE4F79000C2AB2 /* SDSBViewcontroller1.m */; };
+		6A83919F1CAE4F88000C2AB2 /* SDSBViewcontroller2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A83919E1CAE4F88000C2AB2 /* SDSBViewcontroller2.m */; };
+		6A8391A11CAE6434000C2AB2 /* LoginStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8391A01CAE6434000C2AB2 /* LoginStoryBoard.storyboard */; };
+		6A8391A81CAE7164000C2AB2 /* SDArchiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8391A61CAE7164000C2AB2 /* SDArchiveVC.m */; };
+		6A8391A91CAE7164000C2AB2 /* SDArchiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A8391A71CAE7164000C2AB2 /* SDArchiveVC.xib */; };
 		6AA59D8F1CAA766F001F2DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59D8E1CAA766F001F2DB2 /* main.m */; };
 		6AA59D921CAA766F001F2DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59D911CAA766F001F2DB2 /* AppDelegate.m */; };
 		6AA59D951CAA766F001F2DB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59D941CAA766F001F2DB2 /* ViewController.m */; };
@@ -47,6 +54,17 @@
 		6A769E471CACF4F000674949 /* Block */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Block; sourceTree = "<group>"; };
 		6A769E4A1CACF5F500674949 /* SDCopyWithStrong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCopyWithStrong.h; sourceTree = "<group>"; };
 		6A769E4B1CACF5F500674949 /* SDCopyWithStrong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCopyWithStrong.m; sourceTree = "<group>"; };
+		6A8391951CAE262F000C2AB2 /* BigBean.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BigBean.storyboard; sourceTree = "<group>"; };
+		6A8391971CAE4F55000C2AB2 /* SDConstomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDConstomSegue.h; sourceTree = "<group>"; };
+		6A8391981CAE4F55000C2AB2 /* SDConstomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDConstomSegue.m; sourceTree = "<group>"; };
+		6A83919A1CAE4F79000C2AB2 /* SDSBViewcontroller1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSBViewcontroller1.h; sourceTree = "<group>"; };
+		6A83919B1CAE4F79000C2AB2 /* SDSBViewcontroller1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSBViewcontroller1.m; sourceTree = "<group>"; };
+		6A83919D1CAE4F88000C2AB2 /* SDSBViewcontroller2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSBViewcontroller2.h; sourceTree = "<group>"; };
+		6A83919E1CAE4F88000C2AB2 /* SDSBViewcontroller2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSBViewcontroller2.m; sourceTree = "<group>"; };
+		6A8391A01CAE6434000C2AB2 /* LoginStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryBoard.storyboard; sourceTree = "<group>"; };
+		6A8391A51CAE7164000C2AB2 /* SDArchiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDArchiveVC.h; sourceTree = "<group>"; };
+		6A8391A61CAE7164000C2AB2 /* SDArchiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDArchiveVC.m; sourceTree = "<group>"; };
+		6A8391A71CAE7164000C2AB2 /* SDArchiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDArchiveVC.xib; sourceTree = "<group>"; };
 		6A9C0ABC1CAA7FE3005FB70E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6AA59D8A1CAA766F001F2DB2 /* StudyDemo_0301.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDemo_0301.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA59D8E1CAA766F001F2DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +95,7 @@
 		6A14EE591CAA829B00D63117 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				6A8391A21CAE6D87000C2AB2 /* NavigationControllerAnimation */,
 				6A5CC7671CAB7BBA009BC4B2 /* CALayer */,
 			);
 			name = Animation;
@@ -103,6 +122,7 @@
 		6A14EE5C1CAA831600D63117 /* UI_Level2 */ = {
 			isa = PBXGroup;
 			children = (
+				6A8391941CAE2608000C2AB2 /* UIStoryBoard */,
 			);
 			name = UI_Level2;
 			sourceTree = "<group>";
@@ -159,6 +179,46 @@
 			name = Menmory;
 			sourceTree = "<group>";
 		};
+		6A8391941CAE2608000C2AB2 /* UIStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6A8391951CAE262F000C2AB2 /* BigBean.storyboard */,
+				6A8391971CAE4F55000C2AB2 /* SDConstomSegue.h */,
+				6A8391981CAE4F55000C2AB2 /* SDConstomSegue.m */,
+				6A83919A1CAE4F79000C2AB2 /* SDSBViewcontroller1.h */,
+				6A83919B1CAE4F79000C2AB2 /* SDSBViewcontroller1.m */,
+				6A83919D1CAE4F88000C2AB2 /* SDSBViewcontroller2.h */,
+				6A83919E1CAE4F88000C2AB2 /* SDSBViewcontroller2.m */,
+				6A8391A01CAE6434000C2AB2 /* LoginStoryBoard.storyboard */,
+			);
+			name = UIStoryBoard;
+			sourceTree = "<group>";
+		};
+		6A8391A21CAE6D87000C2AB2 /* NavigationControllerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NavigationControllerAnimation;
+			sourceTree = "<group>";
+		};
+		6A8391A31CAE712D000C2AB2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				6A8391A41CAE713C000C2AB2 /* 归档 */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		6A8391A41CAE713C000C2AB2 /* 归档 */ = {
+			isa = PBXGroup;
+			children = (
+				6A8391A51CAE7164000C2AB2 /* SDArchiveVC.h */,
+				6A8391A61CAE7164000C2AB2 /* SDArchiveVC.m */,
+				6A8391A71CAE7164000C2AB2 /* SDArchiveVC.xib */,
+			);
+			name = "归档";
+			sourceTree = "<group>";
+		};
 		6AA59D811CAA766F001F2DB2 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +240,7 @@
 		6AA59D8C1CAA766F001F2DB2 /* StudyDemo_0301 */ = {
 			isa = PBXGroup;
 			children = (
+				6A8391A31CAE712D000C2AB2 /* Store */,
 				6A14EE5C1CAA831600D63117 /* UI_Level2 */,
 				6A14EE5B1CAA82E500D63117 /* UI_Level1 */,
 				6A14EE5A1CAA82BA00D63117 /* Baseknowledge */,
@@ -294,12 +355,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8391A91CAE7164000C2AB2 /* SDArchiveVC.xib in Resources */,
 				6A769E481CACF4F000674949 /* Block in Resources */,
 				6AA59D9D1CAA766F001F2DB2 /* LaunchScreen.storyboard in Resources */,
 				6AA59D9A1CAA766F001F2DB2 /* Assets.xcassets in Resources */,
+				6A8391A11CAE6434000C2AB2 /* LoginStoryBoard.storyboard in Resources */,
 				6A5CC77A1CAB80D7009BC4B2 /* SD_Notification_VC1.xib in Resources */,
 				6AA59D981CAA766F001F2DB2 /* Main.storyboard in Resources */,
 				6A769E461CACF1C200674949 /* SDByValViewControllerSecond.xib in Resources */,
+				6A8391961CAE262F000C2AB2 /* BigBean.storyboard in Resources */,
 				6A5CC77F1CAB80E3009BC4B2 /* SD_Notification_VC2.xib in Resources */,
 				6A769E411CACF15800674949 /* SDByValViewControllerFirst.xib in Resources */,
 			);
@@ -360,13 +424,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8391991CAE4F55000C2AB2 /* SDConstomSegue.m in Sources */,
 				6A769E451CACF1C200674949 /* SDByValViewControllerSecond.m in Sources */,
 				6A769E4C1CACF5F500674949 /* SDCopyWithStrong.m in Sources */,
+				6A8391A81CAE7164000C2AB2 /* SDArchiveVC.m in Sources */,
 				6A5CC76A1CAB7BEA009BC4B2 /* SD_CALayer_1.m in Sources */,
 				6A5CC77E1CAB80E3009BC4B2 /* SD_Notification_VC2.m in Sources */,
+				6A83919F1CAE4F88000C2AB2 /* SDSBViewcontroller2.m in Sources */,
 				6A769E401CACF15800674949 /* SDByValViewControllerFirst.m in Sources */,
 				6A5CC7791CAB80D7009BC4B2 /* SD_Notification_VC1.m in Sources */,
 				6AA59D951CAA766F001F2DB2 /* ViewController.m in Sources */,
+				6A83919C1CAE4F79000C2AB2 /* SDSBViewcontroller1.m in Sources */,
 				6AA59D921CAA766F001F2DB2 /* AppDelegate.m in Sources */,
 				6AA59D8F1CAA766F001F2DB2 /* main.m in Sources */,
 			);
