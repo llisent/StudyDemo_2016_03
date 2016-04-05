@@ -28,7 +28,6 @@
     return YES;
 }
 
-//CALAYER
 - (void)calayerDemo{
     SD_CALayer_1 *layer = [[SD_CALayer_1 alloc]init];
     [self makeWindowWithViewController:layer];
